@@ -21,7 +21,7 @@ function loadContact(){
     form.appendChild(nameLabel)
     form.appendChild(nameInput)
 
-// #########################################################
+
 
     const emailLabel = document.createElement('label')
     emailLabel.htmlFor = "email";
@@ -36,7 +36,7 @@ function loadContact(){
     form.appendChild(emailLabel)
     form.appendChild(emailInput)
 
-// ###################################################################
+
 
     const phLabel = document.createElement('label')
     phLabel.htmlFor = "ph";
@@ -50,7 +50,7 @@ function loadContact(){
     form.appendChild(phLabel)
     form.appendChild(phInput)
 
- // ###################################################################
+ 
     
     const messageLabel = document.createElement("label")
     messageLabel.htmlFor = "message";
@@ -73,7 +73,7 @@ function loadContact(){
 
     formDiv.appendChild(form);
     
- // ###################################################################
+ 
 
 
     const infoDiv = document.createElement("div")
@@ -97,11 +97,7 @@ function loadContact(){
     infoaddress.className = "infoTitle";
     infoaddress.innerHTML = "<br>Address: 123 Viking Street, Valhalla City, ON 98765<br>";
     infoDiv.appendChild(infoaddress);
-
-    
-
-
- // ###################################################################
+ 
 
     contentBody.appendChild(formDiv);
     contentBody.appendChild(infoDiv);
