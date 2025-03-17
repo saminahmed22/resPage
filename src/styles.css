@@ -26,23 +26,6 @@ header {
     gap: 75%;
 }
 
-/* button {
-    border: none;
-    background-color: white;
-    margin: 0 10px 0 10px;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-
-button:hover {
-    border-bottom: 1px solid rgba(255, 68, 0, 0.3);
-    margin-bottom: -1px;
-}
-
-button:active {
-    border-bottom: 2px solid rgba(255, 68, 0, 0.6);
-    margin-bottom: -2px;
-} */
 .branding {
     font-size: 2rem;
 }
@@ -82,17 +65,6 @@ button:active {
 
 
 
-/* 
-.navLinks label:active {
-    border-bottom: 2px solid rgba(255, 68, 0, 0.4);
-    margin-bottom: -2px;
-}
-
-.navLinks input[type="radio"]:checked+label {
-    border-bottom: 2px solid rgb(255, 68, 0);
-    margin-bottom: -2px;
-} */
-
 /* ************************************************************************* */
 .content {
     flex: 1;
@@ -101,6 +73,7 @@ button:active {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    font-family: "quicksand";
 }
 
 /* ********************************************************************************** */
@@ -202,6 +175,28 @@ input[type="number"] {
 .submitBtn:active {
     background-color: rgba(255, 68, 0);
 }
+
+/* ********************************************************************************** */
+
+.menuDiv div {
+    padding-bottom: 10px;
+}
+
+.menuDiv h3 {
+    font-size: 2rem;
+    border-bottom: 2px solid orangered;
+}
+
+.menuDiv h5 {
+    font-size: 1.2rem;
+    padding: 10px 10px 2px 10px;
+}
+
+.menuDiv p {
+    font-size: 1rem;
+    padding: 0px 20px;
+}
+
 
 /* ********************************************************************************** */
 
