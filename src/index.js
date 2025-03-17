@@ -10,8 +10,8 @@ const homeBtn = document.querySelector(".homeBtn");
 const menuBtn = document.querySelector(".menuBtn");
 const contactBtn = document.querySelector(".contactBtn");
 
-loadContact();
-// loadHome();
+
+loadHome();
 homeBtn.addEventListener("click", () => {
     contentDiv.textContent = '';
     loadHome();
