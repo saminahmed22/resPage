@@ -8,6 +8,11 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
   "name": "respage",
   "version": "1.0.0",
   "description": "",
@@ -274,9 +279,6 @@
     "which": "^2.0.2",
     "wildcard": "^2.0.1",
     "ws": "^8.18.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
